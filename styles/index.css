@@ -148,15 +148,13 @@ li a{
     .about-me-section{
         width: 90vw;
         margin: 0px auto;
-        background-color: rgb(255,248,243);
+       
     }
     .about-me-container{
         width: 90vw;
         margin: auto;
-    
         padding: 20px;    
-        text-align: center;
-    
+          
     }
     .my-info{
         flex-direction: column;
@@ -165,5 +163,5 @@ li a{
  /* abour me section up here  */
 
 
- 
+
 }
