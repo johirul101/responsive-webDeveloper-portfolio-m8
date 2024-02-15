@@ -8,16 +8,23 @@
     
     
 }
+.color-primary{
+    color: rgb(253,110,10);
+}
 .bg-primary a{
     color: white;
     font-weight: lighter;
 }
 .btn{
     padding: 8px 16px;
-    border: none;
+    border-color:  rgb(253,110,10);
+    color: black;
     border-radius: 5px;
     text-wrap: nowrap;
+    cursor: pointer;
+
 }
+
 
 /* nav bar styles down here */
 nav{
@@ -27,6 +34,9 @@ nav{
     gap: 50px;
     padding: 50px 200px;
     background-color: rgb(255,255,255);
+}
+nav .title{
+    font-size: 30px;
 }
 nav ul{
     display: flex;
@@ -42,7 +52,50 @@ li a{
     color: black;
     font-weight: lighter;
 }
-/* nav bar starts here */
+/* nav bar up here */
+/* ============================================================================= */
+/* banner styles down here */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-details{
+    width: 50vw;
+    padding: 0px 20px;
+}
+.title{
+    font-size: 26px;
+    padding: 10px 0px;
+}
+.name{
+    font-size: 46px;
+    padding: 10px 0px;
+}
+.description{
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+.banner-details button{
+    margin-right: 20px;
+}
+.banner-photo-container{
+    width: 50vw;
+
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-photo{
+    width: 580px;
+    display: block;
+    /* margin: 0px auto; */
+    margin-left: auto;
+}
+
+/* banner styles up here */
 
 
 @media screen and (max-width: 576px) {
@@ -51,6 +104,23 @@ li a{
         gap: 30px;
 
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        
+    }
+    .banner-photo-container{
+        width: 100vw;
+    }
+    .banner-photo{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .banner-details{
+        width: 100vw;
+
+        margin-top: 50px;
+    }
+
 }
 @media screen and (min-width:577px) and (max-width:992px) {
     nav{
