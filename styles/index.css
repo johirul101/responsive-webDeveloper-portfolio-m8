@@ -29,7 +29,7 @@
 /* nav bar styles down here */
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
     padding: 50px 200px;
@@ -56,6 +56,7 @@ li a{
 /* ============================================================================= */
 /* banner styles down here */
 .banner-container{
+    padding: 50px 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -86,10 +87,12 @@ li a{
 
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: bottom;
+    
 }
 .banner-photo{
-    width: 580px;
+    width: 360px;
     display: block;
     /* margin: 0px auto; */
     margin-left: auto;
@@ -112,7 +115,7 @@ li a{
         width: 100vw;
     }
     .banner-photo{
-        width: 500px;
+        width: 360px;
         margin: 0 auto;
     }
     .banner-details{
