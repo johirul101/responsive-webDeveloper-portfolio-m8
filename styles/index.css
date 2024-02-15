@@ -99,6 +99,26 @@ li a{
 }
 
 /* banner styles up here */
+/* ============================================================================ */
+/* about me styles down here */
+.about-me-section{
+    margin: 50px 200px;
+    background-color: rgb(255,248,243);
+}
+.about-me-container{
+    width: 50vw;
+    margin: auto;
+
+    padding: 60px;    
+    text-align: center;
+
+}
+.my-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+/* about me styles up here */
 
 
 @media screen and (max-width: 576px) {
@@ -123,10 +143,27 @@ li a{
 
         margin-top: 50px;
     }
-
-}
-@media screen and (min-width:577px) and (max-width:992px) {
-    nav{
-        flex-direction: row;
+    /* abour me section down here  */
+    
+    .about-me-section{
+        width: 90vw;
+        margin: 0px auto;
+        background-color: rgb(255,248,243);
     }
+    .about-me-container{
+        width: 90vw;
+        margin: auto;
+    
+        padding: 20px;    
+        text-align: center;
+    
+    }
+    .my-info{
+        flex-direction: column;
+        gap: 20px;
+    }
+ /* abour me section up here  */
+
+
+ 
 }
