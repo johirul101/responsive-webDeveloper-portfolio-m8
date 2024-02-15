@@ -157,6 +157,53 @@ li a{
     text-align: justify;
 }
 /* what I Do section styles up here */
+/* ========================================================================= */
+/* resume section style down here */
+.resume-section{
+    margin: 70px 200px;
+    
+}
+.resume-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 30px;
+}
+.myEducation-container{
+    width: 50vw;
+}
+.myEducation{
+    margin-top: 15px;
+    padding: 0px 20px;
+
+}
+.section-title{
+    font-size: 26px;
+    text-align: center;
+}
+.resume-title{
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+.resume-subTitle{
+    font-size: 18px;
+    color: grey;
+    
+}
+.resume-description{
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.myExperience-container{
+    width: 50vw;
+}
+
+/* resume section style up here */
+
 
 
 @media screen and (max-width: 576px) {
@@ -220,7 +267,36 @@ li a{
 }
 /* what I Do section styles up here */
 /* ============================================================================= */
+ /* resume section style down here */
+.resume-section{
+    width: 90vw;
 
+    margin: auto;
+    
+}
+.resume-container{
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+
+}
+.myEducation-container{
+    width: 90vw;
+}
+
+.section-title{
+ 
+    text-wrap: nowrap;
+}
+
+.myExperience-container{
+    width: 90vw;
+    margin: auto;
+}
+
+/* resume section style up here */
 
 
 }
