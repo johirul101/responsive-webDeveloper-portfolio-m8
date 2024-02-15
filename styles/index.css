@@ -119,14 +119,56 @@ li a{
     margin: 10px 0px;
 }
 /* about me styles up here */
+/* ============================================================================ */
+/* what I Do section styles down here */
+
+.whatIdo-container{
+    margin: 50px 200px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.whatIdo-description{
+    text-align: center;
+}
+.whatIdo-skils{
+    
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.card{
+    padding: 10px 15px;
+    box-shadow: 5px 7px 6px gray;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.card-title{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.card-description{
+    font-size: 18px;
+    text-align: justify;
+}
+/* what I Do section styles up here */
 
 
 @media screen and (max-width: 576px) {
+    /* nav bar styles down here */
     nav{
         flex-direction: column;
         gap: 30px;
-
+        
     }
+/* nav bar styles up here */
+/* ============================================================================ */
+/* banner styles down here */
     .banner-container{
         flex-direction: column-reverse;
         
@@ -143,7 +185,9 @@ li a{
 
         margin-top: 50px;
     }
-    /* abour me section down here  */
+ /* banner styles up here */
+ /* ======================================================================= */
+ /* abour me section down here  */
     
     .about-me-section{
         width: 90vw;
@@ -161,6 +205,21 @@ li a{
         gap: 20px;
     }
  /* abour me section up here  */
+/* ============================================================================== */
+/* what I Do section styles down here */
+
+.whatIdo-container{
+    width: 90vw;
+    margin: 50px auto;
+    
+}
+
+.whatIdo-skils{
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+/* what I Do section styles up here */
+/* ============================================================================= */
 
 
 
