@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-primary{
+    background-color: rgb(253,110,10);
+    
+    
+}
+.bg-primary a{
+    color: white;
+    font-weight: lighter;
+}
+.btn{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-wrap: nowrap;
+}
+
+/* nav bar styles down here */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 200px;
+    background-color: rgb(255,255,255);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    margin: 0 5px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+/* nav bar starts here */
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        gap: 30px;
+
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    nav{
+        flex-direction: row;
+    }
+}
